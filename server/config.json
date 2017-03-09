@@ -1,0 +1,26 @@
+{
+  "restApiRoot": "/api",
+  "appTtitle": "PT Spotter",
+  "host": "localhost",
+  "port": 3000,
+  "noReplyEmail" : "noreply@ptspotter.co.uk",
+  "publicUrl" : "http://139.162.56.185/ptspotter/EmailTemplates/",
+  "verifiedRedirect" : "http://139.162.56.185/ptspotter/admin/#/",
+  "remoting": {
+    "context": false,
+    "rest": {
+      "handleErrors": false,
+      "normalizeHttpPath": false,
+      "xml": false
+    },
+    "json": {
+      "strict": false,
+      "limit": "100kb"
+    },
+    "urlencoded": {
+      "extended": true,
+      "limit": "100kb"
+    },
+    "cors": false
+  }
+}

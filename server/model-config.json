@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "ptspotter",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "ptspotter",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ptspotter",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ptspotter",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "ptspotter",
+    "public": false
+  },
+  "Category": {
+    "dataSource": "ptspotter",
+    "public": true
+  },
+  "Article": {
+    "dataSource": "ptspotter",
+    "public": true
+  },
+  "user": {
+    "dataSource": "ptspotter",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
+  },
+  "Email": {
+      "dataSource": "mail",
+      "public": false
+  }
+}

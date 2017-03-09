@@ -1,0 +1,33 @@
+{
+  "ptspotter": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "ptspotter",
+    "password": "",
+    "name": "ptspotter",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "mailgun": {
+      "connector": "loopback-connector-mailgun",
+      "apikey": "key-8b6635b8316fde482ee0e2b705c3a171",
+      "domain": "planetjaipur.com"
+  },
+  "mail": {
+    "name": "mail",
+    "connector": "mail",
+    "transports": [{
+      "type": "SMTP",
+      "host": "smtp.gmail.com",
+      "secure": true,
+      "port": 465,
+      "auth": {
+        "user": "smtp18181818@gmail.com",
+        "pass": "V>O&w]dD=)839dk"
+      }
+
+    }]
+  }
+
+}
